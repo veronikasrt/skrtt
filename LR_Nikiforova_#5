@@ -1,0 +1,83 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 14:53 ?        00:00:00 /sbin/init
+root           2       0  0 14:53 ?        00:00:00 [kthreadd]
+root         186       1  0 14:53 ?        00:00:00 /lib/systemd/systemd-journald
+root         208       1  0 14:53 ?        00:00:00 /lib/systemd/systemd-udevd
+root         386       1  0 14:53 ?        00:00:00 /usr/sbin/cron -f
+root         392       1  0 14:53 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         393       1  0 14:53 ?        00:00:00 /lib/systemd/systemd-logind
+root         397       1  0 14:53 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         398       1  0 14:53 ?        00:00:00 /sbin/dhclient -4 -v -i -pf /run/dhclient.enp0s3.pid -lf /var/lib/dhcp/dhclient.enp0s3.leases -I -df /var/lib/dhcp/dhclient6.enp0s3.leases enp0s3
+root         430       1  0 14:53 tty1     00:00:00 /bin/login -p --
+root         434       1  0 14:53 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root           3       2  0 14:53 ?        00:00:00 [rcu_gp]
+root           4       2  0 14:53 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 14:53 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           8       2  0 14:53 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 14:53 ?        00:00:00 [rcu_tasks_rude_]
+root          10       2  0 14:53 ?        00:00:00 [rcu_tasks_trace]
+root          11       2  0 14:53 ?        00:00:00 [ksoftirqd/0]
+root          12       2  0 14:53 ?        00:00:00 [rcu_sched]
+root          13       2  0 14:53 ?        00:00:00 [migration/0]
+root          15       2  0 14:53 ?        00:00:00 [cpuhp/0]
+root          17       2  0 14:53 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 14:53 ?        00:00:00 [netns]
+root          19       2  0 14:53 ?        00:00:00 [kauditd]
+root          20       2  0 14:53 ?        00:00:00 [khungtaskd]
+root          21       2  0 14:53 ?        00:00:00 [oom_reaper]
+root          22       2  0 14:53 ?        00:00:00 [writeback]
+root          23       2  0 14:53 ?        00:00:00 [kcompactd0]
+root          24       2  0 14:53 ?        00:00:00 [ksmd]
+root          25       2  0 14:53 ?        00:00:00 [khugepaged]
+root          43       2  0 14:53 ?        00:00:00 [kintegrityd]
+root          44       2  0 14:53 ?        00:00:00 [kblockd]
+root          45       2  0 14:53 ?        00:00:00 [blkcg_punt_bio]
+root          46       2  0 14:53 ?        00:00:00 [edac-poller]
+root          47       2  0 14:53 ?        00:00:00 [devfreq_wq]
+root          48       2  0 14:53 ?        00:00:00 [kworker/0:1H-kblockd]
+root          49       2  0 14:53 ?        00:00:00 [kswapd0]
+root          50       2  0 14:53 ?        00:00:00 [kthrotld]
+root          51       2  0 14:53 ?        00:00:00 [acpi_thermal_pm]
+root          52       2  0 14:53 ?        00:00:00 [ipv6_addrconf]
+root          62       2  0 14:53 ?        00:00:00 [kstrp]
+root          65       2  0 14:53 ?        00:00:00 [zswap-shrink]
+root          66       2  0 14:53 ?        00:00:00 [kworker/u3:0]
+root         109       2  0 14:53 ?        00:00:00 [ata_sff]
+root         110       2  0 14:53 ?        00:00:00 [scsi_eh_0]
+root         111       2  0 14:53 ?        00:00:00 [scsi_eh_1]
+root         112       2  0 14:53 ?        00:00:00 [scsi_tmf_0]
+root         113       2  0 14:53 ?        00:00:00 [scsi_tmf_1]
+root         114       2  0 14:53 ?        00:00:00 [scsi_eh_2]
+root         115       2  0 14:53 ?        00:00:00 [scsi_tmf_2]
+root         151       2  0 14:53 ?        00:00:00 [jbd2/sda1-8]
+root         152       2  0 14:53 ?        00:00:00 [ext4-rsv-conver]
+root         231       2  0 14:53 ?        00:00:00 [cryptd]
+root         249       2  0 14:53 ?        00:00:00 [irq/18-vmwgfx]
+root         257       2  0 14:53 ?        00:00:00 [ttm_swap]
+root         259       2  0 14:53 ?        00:00:00 [card0-crtc0]
+root         261       2  0 14:53 ?        00:00:00 [card0-crtc1]
+root         262       2  0 14:53 ?        00:00:00 [card0-crtc2]
+root         264       2  0 14:53 ?        00:00:00 [card0-crtc3]
+root         268       2  0 14:53 ?        00:00:00 [card0-crtc4]
+root         274       2  0 14:53 ?        00:00:00 [card0-crtc5]
+root         276       2  0 14:53 ?        00:00:00 [card0-crtc6]
+root         279       2  0 14:53 ?        00:00:00 [card0-crtc7]
+root         559       2  0 15:05 ?        00:00:00 [kworker/u2:1-flush-8:0]
+root         792       2  0 16:01 ?        00:00:04 [kworker/0:1-events]
+root         970       2  0 17:17 ?        00:00:00 [kworker/u2:2-events_unbound]
+root         977       2  0 17:29 ?        00:00:00 [kworker/0:2-ata_sff]
+root         980       2  0 17:30 ?        00:00:00 [kworker/u2:0-flush-8:0]
+root         982       2  0 17:34 ?        00:00:00 [kworker/0:0-ata_sff]
+root         471     468  0 14:53 tty1     00:00:00 su -
+root         472     471  0 14:53 tty1     00:00:00 -bash
+root         686     472  0 15:16 tty1     00:00:00 nano drag
+root         701     472  0 15:22 tty1     00:00:00 su - veronika
+root         705     702  0 15:22 tty1     00:00:00 su -
+root         706     705  0 15:23 tty1     00:00:00 -bash
+root         717     706  0 15:24 tty1     00:00:00 su - veronika
+root         723     718  0 15:25 tty1     00:00:00 su -
+root         724     723  0 15:25 tty1     00:00:00 -bash
+root         728     724  0 15:26 tty1     00:00:00 su - veronika
+root         774     729  0 15:58 tty1     00:00:00 su -
+root         775     774  0 15:59 tty1     00:00:00 -bash
+root         784     775  0 16:00 tty1     00:00:00 su - veronika
