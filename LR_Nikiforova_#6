@@ -1,0 +1,98 @@
+/proc/cpinfo# informacia o centralnom processore
+/proc/meminfo# informacia ob ispolzovanniy pamaty
+/proc/diskstats# discovia ysrtoistva i statistika ih ispolzovania
+/proc/version# versia yadra
+/proc/mounts# informacia o smontirovannyh failovah systemah
+
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 25
+model		: 80
+model name	: AMD Ryzen 5 5600H with Radeon Graphics
+stepping	: 0
+cpu MHz		: 3293.808
+cache size	: 512 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch vmmcall fsgsbase bmi1 avx2 bmi2 invpcid rdseed clflushopt arat
+bugs		: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 srso
+bogomips	: 6587.61
+TLB size	: 2560 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        2018476 kB
+MemFree:         1625148 kB
+MemAvailable:    1748044 kB
+Buffers:           33024 kB
+Cached:           176496 kB
+SwapCached:            0 kB
+Active:           145004 kB
+Inactive:         100152 kB
+Active(anon):        412 kB
+Inactive(anon):    35732 kB
+Active(file):     144592 kB
+Inactive(file):    64420 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:        998396 kB
+SwapFree:         998396 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         35636 kB
+Mapped:            37220 kB
+Shmem:               508 kB
+KReclaimable:      90896 kB
+Slab:             105492 kB
+SReclaimable:      90896 kB
+SUnreclaim:        14596 kB
+KernelStack:        1584 kB
+PageTables:         1720 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2007632 kB
+Committed_AS:     171424 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       31180 kB
+VmallocChunk:          0 kB
+Percpu:              448 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      2048 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:       69568 kB
+DirectMap2M:     2027520 kB
+
+ 17:46:44 up  2:53,  1 user,  load average: 0.00, 0.00, 0.00
+420K	.
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            969M     0  969M   0% /dev
+tmpfs           198M  508K  197M   1% /run
+/dev/sda1        19G  1.6G   17G   9% /
+tmpfs           986M     0  986M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           198M     0  198M   0% /run/user/1000
+
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi        90Mi       1.5Gi       0.0Ki       293Mi       1.7Gi
+Swap:          974Mi          0B       974Mi
