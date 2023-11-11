@@ -1,0 +1,14 @@
+.
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── current_date
+├── LR_Nikiforova_#1
+└── LR_Nikiforova_#2
+
+8 directories, 3 files
