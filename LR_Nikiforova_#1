@@ -1,0 +1,8 @@
+man man# vivod stranizu rukovodstva
+info# vivod stranizu rukovodstva v formate GNU tetxinfo
+echo# vivod pustoy stroky
+pwd# vivod tekychego rabochego cataloga polzavatelya
+date# Sat 11 Nov 2023 04:19:01 PM +05
+who# veronika tty1         2023-11-11 16:55
+ls# vivod soderzhimogo kakogo-libo cataloga
+cat# vivod soderzhimogo failov
