@@ -1,0 +1,45 @@
+-name# imay faila
+-type# tip faila
+-newer# faily s menishey datoy modifikacii chem y zadannogo faila
+-mtime# data modifikacii faila
+-size# razmer faila
+-exec# vipolnenie nad naidenumi failami ykazannoy comady
+-delete# ydalenie naidennuh failov
+
+-n# vivod nomera stroky soderzahy shablon
+-c# vivod kollichestva strok soderzhy obrazec
+-i# ignorirovat registr simvolov
+-v# vivod vseh strok ne soderzhachih shablon
+
+├── filelist2.txt
+├── filelist3.txt
+├── filelist.tar
+├── filelist.txt
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+_apt
+systemd-network
+systemd-resolve
+messagebus
+systemd-timesync
+avahi-autoipd
+sshd
+veronika
+systemd-coredump
